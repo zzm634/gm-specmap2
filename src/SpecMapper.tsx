@@ -9,7 +9,7 @@ function SpecMapper(props: {}) {
     const [metal, setMetal] = useState(0);
     const [roughness, setRoughness] = useState(0);
     const [clearcoat, setClearcoat] = useState(0);
-    const [color, setColor] = useState("#FAFF00");
+    const [color, setColor] = useState("#242fb3");
 
     return <div style={{
         display: "flex",
