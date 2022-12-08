@@ -96,7 +96,7 @@ function CarFrame(props: {
         var g = parseInt(hexRGB.substr(2, 2), 16) / 255;
         var b = parseInt(hexRGB.substr(4, 2), 16) / 255;
 
-        console.log("drawCar: ", r,g, b);
+        //console.log("drawCar: ", r,g, b);
 
         const canvas = document.getElementById(`${id}-canvas`) as HTMLCanvasElement;
         const black = document.getElementById(`${id}-black`) as HTMLImageElement;
